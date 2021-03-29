@@ -77,6 +77,7 @@ A big concern is the distribution of crimes accross days and months. Because som
 
 ![Scatter Matrix](images/ScatterMatrix.png)
 
+![ScatterPlot Samples](images/ScatterPlotSample.png)
 #
 
 ## 5. Model
