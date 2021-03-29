@@ -7,7 +7,7 @@ https://nbviewer.jupyter.org/github/dfreeman500/Crime-and-Weather-ment/blob/main
 #
 ## Instructions:
 
-* Clone the repo
+* Clone the repo:  https://github.com/dfreeman500/Crime-and-Weather-ment.git
 * pip install -r requirements.txt
 * Run crime-weather.ipynb 
 * (Program written in Python 3.7.2)
@@ -62,12 +62,28 @@ A big concern is the distribution of crimes accross days and months. Because som
 
 * Pearson Correlation Coefficients are checked between NUMBER_OF_CRIMES, each of the crime types, and (TMIN, TMAX, PRCP, and SNOW). Coefficients with abs(.20) or more are printed in red and a scatter plot is also displayed. If the test showed a p value of <.05 then the value is printed in blue. 
 
+![Average Crimes across DOW ](images/AvgCrimesDOW.png) 
+![Average Crimes across DOM ](images/AvgCrimesDOM.png) 
+![Average Crimes across DOY ](images/AvgCrimesDOY.png) 
+![Crime Distrubution across DOM ](images/DistributionDOM.png)
+
+![Crime Distrubution across DOM Equal and Greater ](images/DistributionDOMGreatEqual.png)
+
+![Crime Distrubution across DOY](images/DistributionDOY.png)
+
+![Crime Distrubution across DOY Equal and Greater ](images/DistributionDOYGreatEqual.png)
+
+![Distribution of Crime Types](images/CrimeTypeDistribution.png)
+
+![Scatter Matrix](images/ScatterMatrix.png)
+
 #
 
 ## 5. Model
 
 * Linear regression is performed on NUMBER_OF_CRIMES and TMIN, TMAX, PRCP, and SNOW. Linear regression allows for continuous prediction of 2 related continuous values. For example in the case of TMIN, if a day has a minimum temperature of 80 degrees, the number of crimes in a day might be forecasted to be roughly around 225 (y = 0.73059131 * 80 + 166.700) given the current data set.
 
+ 
 
 
 #
