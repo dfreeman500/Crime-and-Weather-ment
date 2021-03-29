@@ -83,7 +83,7 @@ A big concern is the distribution of crimes accross days and months. Because som
 
 * Linear regression is performed on NUMBER_OF_CRIMES and TMIN, TMAX, PRCP, and SNOW. Linear regression allows for continuous prediction of 2 related continuous values. For example in the case of TMIN, if a day has a minimum temperature of 80 degrees, the number of crimes in a day might be forecasted to be roughly around 225 (y = 0.73059131 * 80 + 166.700) given the current data set.
 
- 
+ ![Linear Regression](images/LinearRegression.png)
 
 
 #
